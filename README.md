@@ -9,5 +9,5 @@ sudo docker build -t flask_test .
 
 
 ```bash
-sudo docker run flask_test
+sudo docker run -p 5000:5000 flask_test
 ```
